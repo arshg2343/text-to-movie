@@ -80,6 +80,41 @@ VITE_API_URL=your_backend_url
 # Backend (.env)
 OPENROUTER_API_KEY=your_api_key
 ```
+5. Update the fetching logic in app.jsx under the ```handleSubmit``` function (copy this and replace the function code)
+```js
+const handleSubmit = async (newPrompt) => {
+setPrompt(newPrompt);
+setLoading(true);
+setShowLanding(false);
+savePrompt(newPrompt);
+setPreviousPrompts(getPrompts());
+
+try {
+  const response = await fetch(
+    "http://localhost8080/",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ prompt: newPrompt }),
+    }
+  );
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+
+  const data = await response.json();
+  setMovies(data);
+} catch (error) {
+  console.error("Error fetching movies:", error);
+  setMovies(null);
+} finally {
+  setLoading(false);
+}
+};
+```
 
 ## 🏃‍♂️ Running the Project
 
