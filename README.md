@@ -25,6 +25,33 @@ An AI-powered movie recommendation engine that transforms your ideas into perfec
 - OpenRouter API integration
 - LLaMA 3.2 Nemotron 70B model
 
+## 🌐 Live Demo & Links
+
+### Live Website
+- 🎥 **Main Website**: [text-to-movie.netlify.app](https://text-to-movie.netlify.app)
+  - Experience the movie recommendation engine in action!
+
+### API & Backend
+- 🚂 **Backend Deployment**: [text-to-movie-be.railway.app](https://railway.com/project/20c4c8d9-a3a6-43b8-8295-6a5453336d73?environmentId=0746b3cd-8d6a-4011-9296-1ce4503b83b5)
+- 🎯 **API Endpoint**: Send POST requests to:
+  ```bash
+  https://movie-recommendation-be-production.up.railway.app/
+  ```
+  Example cURL request:
+  ```bash
+  curl -X POST \
+    https://movie-recommendation-be-production.up.railway.app/ \
+    -H 'Content-Type: application/json' \
+    -d '{"prompt": "A sci-fi movie with time travel"}'
+  ```
+
+### Source Code
+- 💻 **Frontend Repository**: [github.com/yourusername/text-to-movie-frontend](https://github.com/arshg2343/text-to-movie-frontend)
+  - Hosted on Netlify
+  
+- 🔧 **Backend Repository**: [github.com/yourusername/text-to-movie-backend](https://github.com/arshg2343/movie-recommendation-be)
+  - Deployed on Railway
+
 ## 🛠️ Installation
 
 1. Clone the repository
