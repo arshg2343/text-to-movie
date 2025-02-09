@@ -2,7 +2,7 @@
 
 An AI-powered movie recommendation engine that transforms your ideas into perfect movie suggestions! Built with React, Go, and powered by LLaMA 3.2 Nemotron 70B.
 
-![Movie Magic](https://raw.githubusercontent.com/your-username/text-to-movie/main/preview.gif)
+![Movie Magic](https://github.com/user-attachments/assets/5b657fcc-362c-470d-8a2c-a61959f0ad36)
 
 ## ✨ Features
 
