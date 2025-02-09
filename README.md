@@ -10,7 +10,6 @@ An AI-powered movie recommendation engine that transforms your ideas into perfec
 - 🎯 Natural language processing for accurate movie suggestions
 - 🎨 Beautiful 3D animations powered by Three.js
 - 🎭 Custom font and modern UI design
-- ⚡ Lightning-fast performance with Vite and Go
 
 ## 🚀 Tech Stack
 
@@ -108,20 +107,8 @@ Due to web deployment challenges with the original architecture, the project was
 
 While the current version is more streamlined, the original architecture showcases the potential for even more sophisticated recommendation systems using vector embeddings and multi-stage AI processing.
 
-## 🤝 Contributing
-
-This is a college project, but we welcome any suggestions or feedback! Feel free to:
-- Open issues
-- Submit pull requests
-- Share ideas for improvements
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## 🙏 Acknowledgments
 
-- Thanks to OpenRouter for providing API access
 - Shoutout to all our professors and mentors who guided us
 - Built with ❤️ for movie lovers everywhere
 
